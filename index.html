@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>경도 - 경찰과 도둑</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .logo {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .subtitle {
+            font-size: 20px;
+            color: #a0a0a0;
+            margin-bottom: 40px;
+        }
+        .description {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #d0d0d0;
+            margin-bottom: 50px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+        .feature {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 30px 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .feature-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        .feature h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+        .feature p {
+            font-size: 14px;
+            color: #a0a0a0;
+        }
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .links a {
+            color: #e94560;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 12px 24px;
+            border: 1px solid #e94560;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+        .links a:hover {
+            background: #e94560;
+            color: #fff;
+        }
+        .footer {
+            margin-top: 80px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #666;
+            font-size: 14px;
+        }
+        .footer a {
+            color: #888;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            color: #e94560;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🚔🏃</div>
+        <h1>경도</h1>
+        <p class="subtitle">경찰과 도둑 - 실시간 위치 기반 게임</p>
+
+        <p class="description">
+            친구들과 함께 즐기는 실시간 위치 기반 술래잡기 게임!<br>
+            경찰이 되어 도둑을 잡거나, 도둑이 되어 끝까지 도망치세요.
+        </p>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">📍</div>
+                <h3>실시간 위치 추적</h3>
+                <p>GPS를 활용한 실시간 위치 공유로 긴장감 넘치는 게임</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">👥</div>
+                <h3>팀 플레이</h3>
+                <p>경찰팀과 도둑팀으로 나뉘어 전략적인 팀 플레이</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">💬</div>
+                <h3>팀 채팅</h3>
+                <p>같은 팀원끼리만 소통할 수 있는 비밀 채팅</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🏆</div>
+                <h3>다양한 전략</h3>
+                <p>감옥 구출, 도주, 잠복 등 다양한 전략 요소</p>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="privacy.html">개인정보처리방침</a>
+            <a href="terms.html">이용약관</a>
+        </div>
+
+        <div class="footer">
+            <p>문의: <a href="mailto:support@gyeongdo.app">support@gyeongdo.app</a></p>
+            <p style="margin-top: 10px;">&copy; 2025 경도. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
